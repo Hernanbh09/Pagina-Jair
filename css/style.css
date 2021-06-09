@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    width: 100%;
+    height: 250px;
+    background-color: #02bbca;
+
+}
+header img{
+    width: 100%;
+    height: 250px;
+
+}
+/************Menu******************/
+.menu{
+    background-color: #02bbca;
+    height: 70px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom:1px solid transparent;
+    box-shadow: 1px 1px 10px 0 rgba(0, 0, 0, .2);   
+    transition: ease-in-out 0.5s;
+}
+.menu h2{
+    padding: 10px 50px;
+}
+.items{
+    display: flex;
+    list-style: none;
+    margin-right: 30px;
+    
+}
+.items .link{
+    margin: 0 5px;
+    border-radius: 4px;
+}
+.items .link a{
+    display: block;
+    color: black;
+    font-size: 15px;
+    padding: 10px 15px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+/*********Home************/
+.home{
+    width: 100%;
+    height: 100vh;
+    background-color: white;
+    display: flex;
+	justify-content: center;
+	align-items: center;
+}
+/***********************/
+/*******Contenedor********/
+.contenedor{
+    width: 90%;
+    height: 90%;   
+}
+/**********************/
+
+.titulo{
+    text-align: center;
+    padding:10px;
+    font-size: 40px;
+}
+.catalago{
+    width: 100%;
+    height: 90%;
+    display:flex;
+	justify-content: center;
+	align-items: center;
+}
+.categoria{
+    width: 300px;
+    height: 500px;
+    color: black;
+    background-color: #02bbca;
+    margin: 10px;
+    display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-between;
+	box-sizing: border-box;
+	margin: 20px 10px;
+    border-radius: 10px;
+	box-shadow: 2px 10px 12px rgba(0,0,0,0.5);
+    text-decoration: none;
+}
+.categoria h2{
+    padding: 10px 50px;
+}
+
+.categoria:hover{
+    transform-style: preserve-3d;
+	transform: scale(1.10);
+	transition: all ease 0.3s;
+}
+.marvel{
+	color:#32323e;
+	font-weight: bold;
+	letter-spacing: 2px;
+	font-family: bebas kai;
+	font-size: 25px;
+    padding: 10px;
+}
+
+.model{
+	height: 350px;
+	max-height: 100%;
+	max-width: 100%;
+}
+.model2{
+	height: 500px;
+    border-radius:10px;
+	max-height: 100%;
+	max-width: 100%;
+}
+.logo{
+	height: 60px;
+}
+
+
+.footer{
+    width: 100%;
+    height: 200px;
+    background-color: #02bbca;
+}
